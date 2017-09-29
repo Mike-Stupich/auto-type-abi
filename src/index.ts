@@ -3,7 +3,7 @@ import * as cmd from 'command-line-args';
 import { getInputs, getOutputs, interfaces, TypeMappings } from './builder';
 import { Config, opts, Output } from './config';
 
-const TypeBuilder = () => {
+export const TypeBuilder = () => {
     const config: Config = require(cmd(opts).config);
     const output = new Output(config);
     const types = new TypeMappings();
@@ -34,6 +34,4 @@ const TypeBuilder = () => {
       output.print(`type ${curr} = ${types.getTypes()[curr]}`);
     });
 }
-
-export default TypeBuilder;
 

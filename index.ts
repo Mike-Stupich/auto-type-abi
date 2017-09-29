@@ -1,3 +1,1 @@
-import TypeBuilder from './src'
-
-export default TypeBuilder;
+export { TypeBuilder } from './src'

@@ -1,5 +1,4 @@
-import { opts } from './commandLineOptions';
-import { Config } from './config';
-import { Output } from './output';
+export { opts } from './commandLineOptions';
+export { Config } from './config';
+export { Output } from './output';
 
-export { opts, Config, Output };

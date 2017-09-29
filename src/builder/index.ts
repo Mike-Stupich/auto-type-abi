@@ -1,7 +1,5 @@
-import { Config, Output } from '../config';
-import { getInputs } from './inputs';
-import { interfaces } from './interfaces';
-import { TypeMappings } from './mapType';
-import { getOutputs } from './outputs';
+export { getInputs } from './inputs';
+export { interfaces } from './interfaces';
+export { TypeMappings } from './mapType';
+export { getOutputs } from './outputs';
 
-export { getInputs, getOutputs, TypeMappings, interfaces };

@@ -1,5 +1,4 @@
-export { getInputs } from './inputs';
+export { getInputs, getOutputs } from './mappings';
 export { interfaces } from './interfaces';
 export { TypeMappings } from './mapType';
-export { getOutputs } from './outputs';
 
